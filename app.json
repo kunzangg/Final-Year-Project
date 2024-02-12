@@ -27,5 +27,8 @@
       "favicon": "./assets/favicon.png"
     },
     "scheme": "myapp",
-  },
+    "plugins": [
+      "expo-font"
+    ]
+  }
 }

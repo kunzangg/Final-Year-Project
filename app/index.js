@@ -1,13 +1,12 @@
 import { Text, View } from 'react-native';
-import SayHello from '../components/sayhello';
+import Login from '../screens/login/login';
 
-export default function Page() {
-  return <View className=" w-full h-screen flex items-center justify-center">
-    <Text
-      className="text-4xl font-bold"
-    >
-      Hello,
+const Page = () => {
+  return  <View>
+    <Text>
     </Text>
-        <SayHello />
-    </View>
-}
+    <Login/>
+  </View>
+};
+
+export default Page;
